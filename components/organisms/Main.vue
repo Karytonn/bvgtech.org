@@ -12,7 +12,7 @@
     </section>
 
     <section class="max-w-2xl mx-auto mb-20">
-      <div class="relative p-6 mx-4 text-white bg-primary rounded-md">
+      <div class="relative px-6 pt-6 pb-8 mx-4 text-white bg-primary rounded-md">
         <h2 class="text-2xl font-bold">Quer fazer parte dessa comunidade?</h2>
         <p class="my-4 text-base font-normal">Clique no botão abaixo e preencha o formulário</p>
         <a :href="formsUrl" target="_blank" rel="noopener" class="font-bold py-2 px-4 bg-secondary text-white rounded-md">Quero fazer parte</a>

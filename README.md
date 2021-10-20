@@ -33,4 +33,4 @@ _For detailed explanation on how things work, check out the [documentation](http
 
 **Deploy:** GitHub | Netlify
 
-**Extra:** Google Analytics | SEO meta tags | 
+**Extra:** Google Analytics | SEO meta tags

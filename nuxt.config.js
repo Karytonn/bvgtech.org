@@ -36,7 +36,10 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-analytics.nuxtjs.org/setup
+    '@nuxtjs/google-analytics',
   ],
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -45,5 +48,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true
+  },
+
+  googleAnalytics: {
+    id: 'G-EQZDVLGRHD'
   }
 }

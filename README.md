@@ -27,7 +27,7 @@ _For detailed explanation on how things work, check out the [documentation](http
 
 ## Tech Stack
 
-**Client:** Nuxt | TypeScript | Tailwind CSS
+**Client:** Nuxt | TypeScript | Tailwind CSS 
 
 **Server:** _No need a server_
 

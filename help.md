@@ -1,75 +1,3 @@
-## For external host add this script on package.json
-"dev:shared": "nuxt --hostname 0.0.0.0"
-
-//For static website generate add this script on package.json
-"generate": "nuxt generate",
-
-## For SSR - Server Side Rendering add this script on package.json and exec in this order in your server.
-"build": "nuxt build",
-"start": "nuxt start",
-
-//Ex. code for SSR:
-<template>
-  <div class="post">
-    <h1>Postagem</h1>
-
-    <h2>{{ title }}</h2>
-    <p>{{ content }}</p>
-  </div>
-</template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-const sleep = () => {
-  return new Promise((resolve) => setTimeout(resolve, 1500))
-}
-
-export default Vue.extend({
-  //if not SSR change asyncData() for create()
-  async asyncData() {
-    await sleep()
-
-    //In SSR this is not work, necessary export data in return
-    const title = 'My Post Title'
-    const content = 'Lorem ipsum dolor sit...'
-
-    return { title, content }
-  },
-  data() {
-    return {
-      title: '',
-      content: ''
-    }
-  }
-})
-</script>
-
-
-## Install normalize CSS
->> npm install normalize.css
-
-add this flag on nuxt.config.ts
-css: [
-    'normalize.css/normalize.css', ...
-  ],
-
-
-## Install loader SCSS (nuxt não vem com SCSS instalado)
->> npm install node-sass sass-loader -D
-
-
-//Install style-resources for using scss environment variables
-https://www.npmjs.com/package/@nuxtjs/style-resources
->> npm i @nuxtjs/style-resources -D
-
-
-## ALL auto import, include inside subfolder of components folder: add this on nuxt.config.ts
-components: [{ path: '@/components', pathPrefix: false }],
-
-
-
-####################
 
 # Using Store with Vuex + Typescript
 
@@ -135,15 +63,6 @@ export default {
   // ...
   plugins: ['@/plugins/accessor']
 }
-
-######################
-
-## Clear CSS of HTML generated
-// nux.config.ts
-build: {
-    extractCSS: true,
-  }
-
 
 #######################
 

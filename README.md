@@ -27,4 +27,6 @@ _For detailed explanation on how things work, check out the [documentation](http
 
 **Client:** Nuxt | TypeScript | Tailwind CSS
 
+**Server:** _No need a server_
+
 **Deploy:** GitHub | Netlify

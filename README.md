@@ -32,3 +32,5 @@ _For detailed explanation on how things work, check out the [documentation](http
 **Server:** _No need a server_
 
 **Deploy:** GitHub | Netlify
+
+**Extra:** Google Analytics | SEO meta tags | 

@@ -1,6 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -47,10 +48,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // Remove unused CSS: https://go.nuxtjs.dev/config-build-optimization
     extractCSS: true
   },
 
-  googleAnalytics: {
-    id: 'G-EQZDVLGRHD'
-  }
 }

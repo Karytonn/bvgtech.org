@@ -5,8 +5,8 @@
       <div class="container mx-auto flex flex-col py-10 justify-center items-center">
         <img class="lg:w-2/6 md:w-3/6 w-5/6 object-cover object-center rounded" alt="Developers" src="@/assets/img/developers.svg">
         <div class="w-full md:w-2/3 flex flex-col my-6 items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">A 1° comunidade tech de Bela Vista de Goiás.</h1>
-          <p class="leading-relaxed">Nosso propósito é estreitar o caminho para o universo da tecnologia, e fazemos isso por meio de discussões sobre desenvolvimento de software, mercado de trabalho, marketing pessoal e outros temas voltados a TI.</p>
+          <h1 class="max-w-2xl title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">A 1° comunidade tech de Bela Vista de Goiás.</h1>
+          <p class="max-w-2xl leading-relaxed">Nosso propósito é estreitar o caminho para o universo da tecnologia, e fazemos isso por meio de discussões sobre desenvolvimento de software, mercado de trabalho, marketing pessoal e outros temas voltados a TI.</p>
         </div>
       </div>
     </section>
